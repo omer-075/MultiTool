@@ -22,14 +22,6 @@ slmgr /ipk W269N-WFGWX-YVC9B-4J6C9-T83GX
 slmgr.vbs /dli
 slmgr.vbs /ato
 )
-if /I %input% EQU 2 (
-move /Y "C:\Users\gaype\Desktop\MultiTool\Main\rarreg.key" "C:\Program Files\WinRAR"
-copy "C:\Program Files\WinRAR\rarreg.key" "C:\Users\gaype\Desktop\Main\MultiTool"
-)
-if /I %input% EQU 3 (
-start C:\Users\gaype\Desktop\MultiTool\Main\FunnyProgramm.bat
-
-)
 
 
 
